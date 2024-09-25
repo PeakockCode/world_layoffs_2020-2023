@@ -8,7 +8,7 @@ FROM layoffs;
 # 2. Standardize the Data
 # 3. Null Values or blank Values (populates that or decide what to do with it)
 # 4. Remove Any Columns - for example if it is completely blank and we know it is not useful. 
-# !!!But in real work there is usualy protocol writen what to do... min what we should do everytime is work with copy!!!
+# !!!Be sure to work with copy!!!
 
 # Copy of Table (layoffs to layoffs staging)
 -- CREATE TABLE layoffs_staging
